@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OmahFE - Open Recruitment</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600&family=Junicode:ital,wght@0,400;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!--Navbar-->
+    <header class="navbar">
+        <nav class="nav-container">
+            <div class="logo">
+                <div class="logo-icon"></div>
+                <span class="logo-text">Omah<span class="logo-fe">FE</span></span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#about">About</a></li>
+                <li><a href="#features">Features</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="nav-buttons">
+                <button class="btn btn-outline">Sign In</button>
+                <button class="btn btn-primary">Sign Up</button>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <div class="hero-tag">
+                    <span class="laptop-icon">💻</span>
+                    Open For Project
+                </div>
+                <h1 class="hero-title"><br>
+                    Omah<span class="hero-fe">FE</span>.
+                </h1>
+                <p class="hero-description">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                    Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#about" class="btn btn-primary">Get Started</a>
+                    <a href="#portfolio" class="btn btn-outline">More Analytics</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <img src="https://picsum.photos/seed/omahfe-hero/600/400.jpg" alt="OmahFE Hero">
+            </div>
+        </div>
+        <div class="hero-background"></div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">Tentang Kami</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris 
+                        nisi ut aliquip ex ea commodo consequat.
+                    </p>
+                </div>
+                <div class="about-stats">
+                    <div class="stat-item">
+                        <div class="stat-number">2015</div>
+                        <div class="stat-label">Berdiri Sejak</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number">225</div>
+                        <div class="stat-label">Total Project</div>
+                    </div>
+                    <button class="btn btn-outline">Selengkapnya →</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Services-->
+    <section id="features" class="services">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">
+                    <span class="title-orange">Services</span><br>
+                    <span class="title-white">that We Serve</span>
+                </h2>
+            </div>
+            <div class="services-grid" id="servicesGrid">
+                <div class="service-card">
+                    <img src="foto/foto1.jpg" alt="Web Design">
+                    <div class="service-label">Web Design</div>
+                </div>
+                <div class="service-card">
+                    <img src="foto/foto2.jpg" alt="Web Development">
+                    <div class="service-label">Web Development</div>
+                </div>
+                <div class="service-card">
+                    <img src="foto/foto3.jpg" alt="UI/UX Design">
+                    <div class="service-label">UI/UX Design</div>
+                </div>
+                <div class="service-card">
+                    <img src="foto/foto4.jpg" alt="Mobile App">
+                    <div class="service-label">Mobile App</div>
+                </div>
+                <div class="service-card">
+                    <img src="foto/foto5.jpg" alt="Branding">
+                    <div class="service-label">Branding</div>
+                </div>
+                <div class="service-card">
+                    <img src="foto/foto6.jpg" alt="Consulting">
+                    <div class="service-label">Consulting</div>
+                </div>
+                <div class="service-card hidden">
+                    <img src="foto/porsenigama.png" alt="SEO">
+                    <div class="service-label">SEO</div>
+                </div>
+                <div class="service-card hidden">
+                    <img src="foto/gelex.png" alt="Marketing">
+                    <div class="service-label">Marketing</div>
+                </div>
+                <div class="service-card hidden">
+                    <img src="foto/pioneer.png" alt="Support">
+                    <div class="service-label">Support</div>
+                </div>
+            </div>
+            <div class="services-toggle">
+                <button class="btn btn-primary" id="toggleServices">
+                    <span>Show More</span>
+                    <span class="arrow-icon">↓</span>
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!--Porto-->
+    <section id="portfolio" class="portfolio">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">
+                    <span class="title-white">See our latest</span><br>
+                    <span class="title-orange-italic">Portfolio</span>
+                </h2>
+            </div>
+            <div class="portfolio-buttons">
+                <button class="btn btn-primary">See Our Full Portfolio →</button>
+                <button class="btn btn-light">
+                    <span class="phone-icon"></span>
+                    Contact Us
+                </button>
+            </div>
+            <div class="portfolio-grid">
+                <div class="portfolio-card">
+                    <div class="portfolio-gradient"></div>
+                    <img src="foto/porsenigama.png" alt="Porsenigama">
+                    <div class="portfolio-content">
+                        <h3>Porsenigama</h3>
+                        <p>Dolor sit amet, consectetur adipiscing elit sed do eiusmod tempor</p>
+                    </div>
+                </div>
+                <div class="portfolio-card">
+                    <div class="portfolio-gradient"></div>
+                    <img src="foto/gelex.png" alt="Gelex">
+                    <div class="portfolio-content">
+                        <h3>Gelex</h3>
+                    </div>
+                </div>
+                <div class="portfolio-card">
+                    <div class="portfolio-gradient"></div>
+                    <img src="foto/pioneer.png" alt="Pioneer">
+                    <div class="portfolio-content">
+                        <h3>Pioneer</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Testi-->
+    <section class="testimonials">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">
+                    <span class="title-white">What</span>
+                    <span class="title-orange-italic">They</span>
+                    <span class="title-white">Say About OmahFE</span>
+                </h2>
+            </div>
+
+            <div class="testimonial-wrapper">
+                <button class="nav-arrow prev">←</button>
+                <div class="testimonial-card">
+                    <div class="testimonial-left">
+                        <img class="avatar" src="foto/foto1.jpg" alt="avatar">
+                        <p class="testimonial-text">
+                            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean commodo ligula eget dolor."
+                        </p>
+                        <div class="author">
+                            <div class="author-name">John Doe</div>
+                            <div class="author-role">Staff of OmahFE</div>
+                        </div>
+                    </div>
+                    <div class="testimonial-right">
+                        <img src="foto/foto2.jpg" alt="testimonial image">
+                    </div>
+                </div>
+                <button class="nav-arrow next">→</button>
+
+            </div>
+        </div>
+    </section>
+
+    <!--Contact-->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Contact Us</h2>
+            <form class="contact-form">
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="firstName">First Name</label>
+                        <input type="text" id="firstName" name="firstName" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="lastName">Last Name</label>
+                        <input type="text" id="lastName" name="lastName" required>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" rows="5" required></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">
+                    Send
+                    <span class="arrow-icon">→</span>
+                </button>
+            </form>
+        </div>
+    </section>
+
+    <!--Footer-->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="logo">
+                        <img src="foto/Group 26.svg" alt="OmahFE Logo" class="footer-logo">
+                        <span class="logo-text">Omah<span class="logo-fe">FE</span></span>
+                    </div>
+                    <div class="footer-address">
+                        Gedung Fakultas MIPA UGM Sekip Utara,<br>
+                        Bulaksumur, Sinduadi, Mlati, Sleman, DI Yogyakarta
+                    </div>
+                    <div class="social-icons">
+                        <a href="#" class="social-icon">📷</a>
+                        <a href="#" class="social-icon">📘</a>
+                        <a href="#" class="social-icon">🐦</a>
+                        <a href="#" class="social-icon">💼</a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h3>Pages</h3>
+                    <ul>
+                        <li><a href="#about">About Us</a></li>
+                        <li><a href="#features">Our Services</a></li>
+                        <li><a href="#portfolio">Portfolio</a></li>
+                        <li><a href="#testimonials">Testimonials</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Support</h3>
+                    <ul>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; OmahFE 2025</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
